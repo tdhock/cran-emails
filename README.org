@@ -5,3 +5,20 @@ This repo provides some code from analyzing emails listed in CRAN meta-data.
 [[file:emails.R]] creates [[file:emails.csv]] which has one row/line per
 package with an email from a domain that could be a potential funder
 for R (big companies), sorted by domain and email address.
+
+#+begin_src R
+                       domain packages emails
+                       <char>    <int>  <int>
+ 1:                 roche.com       57     65
+ 2:              novartis.com       16     39
+ 3:             microsoft.com       16     21
+ 4:                google.com        9     11
+ 5:     contractors.roche.com       16      5
+ 6:                 apple.com        1      5
+ 7:                  iadb.org        1      2
+ 8:                tiledb.com        1      2
+ 9:                amazon.com        5      1
+10: businesspartner.roche.com        3      1
+#+end_src
+
+The table below shows that the biggest companies contributing packages to CRAN.
