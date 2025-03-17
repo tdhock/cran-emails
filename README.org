@@ -11,14 +11,77 @@ for R (big companies), sorted by domain and email address.
                        <char>    <int>  <int>
  1:                 roche.com       57     65
  2:              novartis.com       16     39
- 3:             microsoft.com       16     21
- 4:                google.com        9     11
- 5:     contractors.roche.com       16      5
- 6:                 apple.com        1      5
- 7:                  iadb.org        1      2
- 8:                tiledb.com        1      2
- 9:                amazon.com        5      1
-10: businesspartner.roche.com        3      1
+ 3:              appsilon.com       18     36
+ 4:                 merck.com       23     24
+ 5:                  gene.com       27     22
+ 6:             microsoft.com       16     21
+ 7:        atorusresearch.com       10     16
+ 8:                   gsk.com       17     15
+ 9:                pfizer.com       16     15
+10:                 lilly.com       10     14
+11:          openanalytics.eu       17     13
+12:           novonordisk.com        4     13
+13:        civisanalytics.com        2     13
+14:  boehringer-ingelheim.com       11     12
+15:                sanofi.com       10     12
+16:                  rand.org        9     12
+17:           astrazeneca.com        6     12
+18:               certara.com       15     11
+19:                google.com        9     11
+20:       mango-solutions.com        7     10
+21:                westat.com        3     10
+22:              erasmusmc.nl       22      9
+23:                 thinkr.fr       17      9
+24:      poissonconsulting.ca       19      8
+25:              ixpantia.com        7      8
+26:                abbvie.com        7      7
+27:                biogen.com        4      7
+28:                   bms.com        5      6
+29:                 bayer.com        4      6
+30:                    h2o.ai        4      6
+31:            databricks.com        3      6
+32:       mirai-solutions.com        3      6
+33:                cynkra.com       31      5
+34:     contractors.roche.com       16      5
+35:               curso-r.com        6      5
+36:             epiconcept.fr        4      5
+37:            insight-rx.com        2      5
+38:             medtronic.com        2      5
+39:                 apple.com        1      5
+40:            quantil.com.co        2      4
+41:                 amgen.com        4      3
+42:                 crunch.io        3      3
+43:          sevenbridges.com        2      3
+44:               uwindsor.ca        2      3
+45:               velsera.com        1      3
+46:      humanpredictions.com       22      2
+47:                dreamrs.fr       14      2
+48:       business-science.io       12      2
+49:                 ardata.fr       11      2
+50:           symbolix.com.au       10      2
+51:               sunholo.com        9      2
+52:            win-vector.com        8      2
+53:            rte-france.com        7      2
+54:      aggregate-genius.com        6      2
+55:                occams.com        5      2
+56:                windsor.ai       27      1
+57:               4dscape.com       12      1
+58:                 bnosac.be       11      1
+59:               for-cast.ca       10      1
+60:             analythium.io        8      1
+61:           menne-biomed.de        6      1
+62:                amazon.com        5      1
+63: businesspartner.roche.com        3      1
+64:  contractors.appsilon.com        2      1
+65:                54gene.com        1      1
+66:               beigene.com        1      1
+                       domain packages emails
 #+end_src
 
-The table below shows that the biggest companies contributing packages to CRAN.
+The table above shows some commercial companies
+contributing packages to CRAN.
+
+My effort in manual classification of email domains of CRAN authors
+yielded the list of patterns in [[file:emails.R]] code, and the
+corresponding =commercial= column in [[file:domains.csv]] (1=commercial,
+0=not, missing=not enough time to determine).
