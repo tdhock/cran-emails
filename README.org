@@ -1,0 +1,7 @@
+** CRAN emails
+
+This repo provides some code from analyzing emails listed in CRAN meta-data.
+
+[[file:emails.R]] creates [[file:emails.csv]] which has one row/line per
+package with an email from a domain that could be a potential funder
+for R (big companies), sorted by domain and email address.
